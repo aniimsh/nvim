@@ -205,6 +205,11 @@ return require('packer').startup(function(use)
 
   --indent
   use("lukas-reineke/indent-blankline.nvim")
+    
+    
+  -- colorizer
+  use 'norcalli/nvim-colorizer.lua'
+  require'colorizer'.setup()
 
 
 
