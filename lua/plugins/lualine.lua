@@ -1,4 +1,4 @@
-require('lualine').setup{
+require('lualine').setup {
   options = {
     theme = 'dawnfox',
     component_separators = '|',
@@ -26,3 +26,4 @@ require('lualine').setup{
   },
   tabline = {},
   extensions = {}
+}
